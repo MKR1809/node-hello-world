@@ -10,7 +10,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: mr1809/node-hello-world
+      IMAGE_NAME: mr1809/spring2023
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
